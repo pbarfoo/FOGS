@@ -3,99 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Friends of the Gardens (FOGs) &mdash; Western University</title>
+  <title>Friends of the Gardens (FOGs) — Western University</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <header>
-    <div class="header-inner">
-      <a href="index.html" class="site-brand">
-        <svg class="brand-leaf" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M18 3C18 3 6 10 6 20a12 12 0 0 0 11 11.9V34h2v-2.1A12 12 0 0 0 30 20C30 10 18 3 18 3z" fill="#7ab55c"/>
-          <path d="M18 12v20" stroke="#1e3d12" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M18 18 l-5-4M18 22 l4-4" stroke="#1e3d12" stroke-width="1.2" stroke-linecap="round"/>
-        </svg>
-        <div class="site-name">
-          Friends of the Gardens
-          <span>FOGs &mdash; Western University</span>
-        </div>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="plant-sale/index.html">Plant Sale</a></li>
-          <li><a href="about/index.html">About</a></li>
-          <li><a href="contact/index.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header class="masthead">
+    <p class="masthead-eyebrow">Western University &mdash; London, Ontario</p>
+    <hr class="masthead-rule">
+    <h1><a href="index.html" style="text-decoration:none;color:inherit">Friends of the <em>Gardens</em></a></h1>
+    <hr class="masthead-rule thin">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="plant-sale/index.html">Plant Sale</a></li>
+        <li><a href="about/index.html">About</a></li>
+        <li><a href="contact/index.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <section class="hero">
-    <div class="hero-eyebrow">London, Ontario &mdash; Since the 1990s</div>
-    <h2>Tending Western's Gardens<br><em>for nearly 30 years</em></h2>
-    <p>Friends of the Gardens is a community of volunteer horticulturalists caring for the rock gardens, pollinator beds, and greenhouses of Western University.</p>
+    <svg class="hero-leaf" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M32 6 C32 6 10 18 10 36 a22 22 0 0 0 21 21.8 V58 h2 v-0.2 A22 22 0 0 0 54 36 C54 18 32 6 32 6z" fill="#cde0bc" stroke="#3a6b28" stroke-width="1"/>
+      <line x1="32" y1="20" x2="32" y2="56" stroke="#3a6b28" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="32" y1="30" x2="22" y2="24" stroke="#3a6b28" stroke-width="1" stroke-linecap="round"/>
+      <line x1="32" y1="36" x2="42" y2="30" stroke="#3a6b28" stroke-width="1" stroke-linecap="round"/>
+      <line x1="32" y1="42" x2="23" y2="37" stroke="#3a6b28" stroke-width="1" stroke-linecap="round"/>
+    </svg>
+    <h2>Volunteer gardeners,<br><em>nearly 30 years growing</em></h2>
+    <p>Caring for the rock gardens, pollinator beds, and greenhouses of Western University since the early 1990s.</p>
     <div class="hero-actions">
-      <a href="plant-sale/index.html" class="btn btn-primary">View Plant Sale</a>
-      <a href="about/index.html" class="btn btn-outline">Learn About FOGs</a>
+      <a href="plant-sale/index.html" class="btn btn-solid">Plant Sale</a>
+      <a href="about/index.html" class="btn btn-ghost">About FOGs</a>
     </div>
   </section>
 
   <main>
-    <div class="section-label">What We Do</div>
-    <h2 class="section-title">Volunteers, Gardens &amp; Community</h2>
+    <div class="section-divider"><span>What We Do</span></div>
 
-    <div class="cards">
-      <div class="card">
-        <span class="card-icon">🌿</span>
-        <h3 class="card-title">The Rock Garden</h3>
-        <p>Our volunteers maintain the St. Mary's Cement Rock Garden between the Collip Building and the Biological &amp; Geological Sciences Building — a beloved campus landmark for nearly three decades.</p>
-        <a href="about/index.html" class="more-link">About FOGs</a>
+    <div class="features">
+      <div class="feature">
+        <svg class="feature-icon" width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <path d="M20 4 C20 4 6 12 6 24 a14 14 0 0 0 13 13.7V38h2v-.3A14 14 0 0 0 34 24C34 12 20 4 20 4z" fill="#cde0bc" stroke="#3a6b28" stroke-width="1"/>
+          <line x1="20" y1="13" x2="20" y2="37" stroke="#3a6b28" stroke-width="1" stroke-linecap="round"/>
+          <line x1="20" y1="20" x2="13" y2="16" stroke="#3a6b28" stroke-width="0.8" stroke-linecap="round"/>
+          <line x1="20" y1="26" x2="27" y2="22" stroke="#3a6b28" stroke-width="0.8" stroke-linecap="round"/>
+        </svg>
+        <h3>The Rock Garden</h3>
+        <p>The St. Mary's Cement Rock Garden, between the Collip Building and the Biological &amp; Geological Sciences Building, tended by our volunteers for nearly three decades.</p>
+        <a href="about/index.html" class="more">Read more</a>
       </div>
-      <div class="card">
-        <span class="card-icon">🌸</span>
-        <h3 class="card-title">Annual Plant Sale</h3>
-        <p>Each spring and through the summer, we sell a wide variety of propagated plants. Proceeds support a community program and student bursaries at Western.</p>
-        <a href="plant-sale/index.html" class="more-link">See plant list</a>
+      <div class="feature">
+        <svg class="feature-icon" width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="20" r="5" fill="#cde0bc" stroke="#3a6b28" stroke-width="1"/>
+          <ellipse cx="20" cy="10" rx="4" ry="7" fill="#cde0bc" stroke="#3a6b28" stroke-width="1"/>
+          <ellipse cx="20" cy="30" rx="4" ry="7" fill="#cde0bc" stroke="#3a6b28" stroke-width="1"/>
+          <ellipse cx="10" cy="20" rx="7" ry="4" fill="#cde0bc" stroke="#3a6b28" stroke-width="1"/>
+          <ellipse cx="30" cy="20" rx="7" ry="4" fill="#cde0bc" stroke="#3a6b28" stroke-width="1"/>
+        </svg>
+        <h3>Annual Plant Sale</h3>
+        <p>Each spring and through the summer, we sell propagated plants beside the greenhouses. Proceeds go directly to student bursaries and a community program at Western.</p>
+        <a href="plant-sale/index.html" class="more">See the list</a>
       </div>
-      <div class="card">
-        <span class="card-icon">🐝</span>
-        <h3 class="card-title">Pollinator Garden</h3>
-        <p>FOGs volunteers also tend the Western University Pollinator Garden, a green space designed to support bees, butterflies, and other beneficial insects on campus.</p>
-        <a href="about/index.html" class="more-link">Read more</a>
+      <div class="feature">
+        <svg class="feature-icon" width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <path d="M20 6 Q28 14 28 22 a8 8 0 0 1-16 0 Q12 14 20 6z" fill="#cde0bc" stroke="#3a6b28" stroke-width="1"/>
+          <path d="M8 28 Q14 22 20 30" stroke="#3a6b28" stroke-width="1" fill="none" stroke-linecap="round"/>
+          <path d="M32 28 Q26 22 20 30" stroke="#3a6b28" stroke-width="1" fill="none" stroke-linecap="round"/>
+          <circle cx="20" cy="30" r="2" fill="#a05c2a"/>
+        </svg>
+        <h3>Pollinator Garden</h3>
+        <p>FOGs also tends the Western University Pollinator Garden — a green space designed to support bees, butterflies, and other insects vital to a healthy campus ecosystem.</p>
+        <a href="about/index.html" class="more">Learn more</a>
       </div>
     </div>
 
-    <div class="highlight">
+    <div class="sale-strip">
       <div>
-        <h3>Join us at the Plant Sale</h3>
-        <p>Spring sale runs the week of May 27th by the UWO greenhouses. Summer sales are every Monday, June&nbsp;1 &ndash; September&nbsp;28, 12:30&ndash;1:30&nbsp;pm. Look for the fenced area just behind the tropical greenhouses.</p>
+        <h3>Come to the plant sale</h3>
+        <p>Spring sale the week of May&nbsp;27th &mdash; then every Monday, June&nbsp;1&ndash;September&nbsp;28, 12:30&ndash;1:30&nbsp;pm. Between the Jancey Garden and the tropical greenhouses, Western University.</p>
       </div>
-      <a href="contact/index.html" class="btn btn-outline">Get Directions</a>
+      <a href="contact/index.html" class="btn btn-terra">Find us</a>
     </div>
 
-    <div class="section-label">Get Involved</div>
-    <h2 class="section-title">Everyone Is Welcome</h2>
+    <div class="section-divider"><span>Get Involved</span></div>
+
     <div class="prose">
-      <p>Whether you are a Western staff member, student, faculty, or community member with a passion for horticulture, FOGs welcomes you. Members take part in regular volunteer days, periodic workshops on propagation and plant care, and the annual plant sale.</p>
-      <p>To learn more or get in touch, email us at <a href="mailto:info@fogsuwo.ca">info@fogsuwo.ca</a>.</p>
+      <p>Whether you are Western staff, a student, or a community member with a love of plants, FOGs welcomes you. Members take part in regular volunteer days, propagation workshops, and the annual plant sale.</p>
+      <p>Email <a href="mailto:info@fogsuwo.ca">info@fogsuwo.ca</a> to learn more or arrange a visit.</p>
     </div>
   </main>
 
   <footer>
-    <div class="footer-inner">
-      <div>
-        <div class="footer-brand">Friends of the Gardens (FOGs)</div>
-        <div class="footer-sub">Western University &mdash; London, Ontario, Canada</div>
-      </div>
-      <nav class="footer-links">
-        <a href="plant-sale/index.html">Plant Sale</a>
-        <a href="about/index.html">About</a>
-        <a href="contact/index.html">Contact</a>
-      </nav>
-    </div>
-    <p class="footer-copy">&copy; Friends of the Gardens (FOGs) &mdash; <a href="mailto:info@fogsuwo.ca" style="color:inherit">info@fogsuwo.ca</a></p>
+    <div class="footer-logo">Friends of the Gardens</div>
+    <nav class="footer-links">
+      <a href="plant-sale/index.html">Plant Sale</a>
+      <a href="about/index.html">About</a>
+      <a href="contact/index.html">Contact</a>
+      <a href="https://www.facebook.com/fogsuwo/" target="_blank" rel="noopener">Facebook</a>
+    </nav>
+    <p class="footer-copy">Western University &mdash; London, Ontario &mdash; <a href="mailto:info@fogsuwo.ca">info@fogsuwo.ca</a></p>
   </footer>
 
 </body>
