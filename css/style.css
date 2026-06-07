@@ -243,12 +243,16 @@ main {
 /* ─── Feature strip (home) ──────────────────────────────────── */
 .features {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 48px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
   margin-bottom: 60px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 860px) {
+  .features { grid-template-columns: repeat(2, 1fr); gap: 32px; }
+}
+
+@media (max-width: 480px) {
   .features { grid-template-columns: 1fr; gap: 32px; }
 }
 
@@ -476,6 +480,46 @@ table.plants td.botanical {
   padding: 1px 8px;
   border-radius: 2px;
 }
+
+/* ─── Values strip ──────────────────────────────────────────── */
+.values-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 680px;
+  margin: 0 auto 40px;
+}
+
+.values-strip span {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--green);
+  border: 1px solid var(--pale);
+  padding: 5px 16px;
+}
+
+/* ─── Stat callout ──────────────────────────────────────────── */
+.stat-callout {
+  background: var(--parch);
+  border: 1px solid var(--border);
+  max-width: 680px;
+  margin: 0 auto 40px;
+  padding: 28px 32px;
+}
+
+.stat-callout p {
+  font-family: 'Fraunces', serif;
+  font-size: 1.05rem;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--green);
+  line-height: 1.6;
+  margin-bottom: 0.75em;
+}
+
+.stat-callout p:last-child { margin-bottom: 0; }
 
 /* ─── Testimonials ──────────────────────────────────────────── */
 .testimonial {
