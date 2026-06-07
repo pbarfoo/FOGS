@@ -477,6 +477,58 @@ table.plants td.botanical {
   border-radius: 2px;
 }
 
+/* ─── Testimonials ──────────────────────────────────────────── */
+.testimonial {
+  max-width: 680px;
+  margin: 0 auto 48px;
+}
+
+.testimonial blockquote {
+  border-left: 3px solid var(--pale);
+  padding-left: 24px;
+  margin: 0 0 14px;
+}
+
+.testimonial blockquote p {
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: var(--ink);
+  margin-bottom: 1em;
+}
+
+.testimonial blockquote p:last-child { margin-bottom: 0; }
+
+.testimonial cite {
+  display: block;
+  font-family: 'Fraunces', serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--green);
+  margin-bottom: 10px;
+  padding-left: 24px;
+}
+
+.testimonial .t-note {
+  font-size: 0.88rem;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.65;
+  padding-left: 24px;
+}
+
+.community-banner {
+  max-width: 680px;
+  margin: 0 auto 48px;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+}
+
 /* ─── Contact blocks ────────────────────────────────────────── */
 .contact-list {
   list-style: none;
